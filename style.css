@@ -274,3 +274,11 @@ margin-left: 3em;
 {
     line-height: 1.5rem;
 }
+@media only screen and (max-width:1024px)
+{
+    .nav{
+        top: auto;
+        width: 100%;
+        bottom: 0px;
+    }
+}
