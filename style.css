@@ -1,0 +1,269 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+   
+}
+ header
+{
+     width: 100%;
+    height: 100vh;
+    background-color: rgb(46, 18, 48);        
+      /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9))
+               ,url('media/ordinateur-portable-ecran-blanc-vierge_273609-16110.avif');
+                */
+               /* color: white; */
+               
+         color: white;      
+         background-size: cover;     
+}  
+ nav
+{
+    width: 100%; 
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+} 
+.logo
+{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold ;
+}
+span
+{
+    color: rgb(179, 18, 98);
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding:0.5rem 1rem ;
+}
+.menu a:nth-child(5)
+{
+    background:  rgb(179, 18, 98);
+    border-radius: 8px;
+    margin: 0.1rem;
+}
+.menu i{
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.menu a:hover 
+{
+    background: rgb(179, 18, 98);
+    border-radius: 8px ;
+}
+.container
+{
+      width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px; 
+}
+ .left
+ {
+     margin-top: 5em;
+     margin-left: -13em;
+ }
+ .right
+ {
+     margin-left: -5em;
+ }
+
+ .right h2{
+     font-family: 'Poppins',sans serif;
+     
+ }
+ .right h1
+ {
+     font-family: 'Kalam', cursive;
+   
+ }
+ .right p 
+{
+    font-family: 'Poppins';
+    line-height: 2.5rem ;
+}
+#hire
+{
+    text-decoration: none;
+    background:rgb(179, 18, 98) ;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size:1.5rem ;
+    margin: 0.1rem;
+}
+#myo
+{
+    text-decoration: none;
+    font-size:1.5rem ;
+    color: white;
+    border: 1px dashed white;
+    border-radius: 8px;  
+    padding: 1rem 2rem;
+    margin: 0 1rem;
+
+}
+#bio
+{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+}
+.leftbio
+{
+    flex-basis: 40%;
+}
+
+.rightbio
+{
+    flex-basis: 60%; 
+}
+.leftbio img
+{
+    width: 100%;
+    height: 550px;
+    border-radius: 8px;
+  
+}
+.rightbio
+{
+  text-align: center;
+ 
+}
+.rightbio p
+{
+    margin: 15px 0;
+    margin-left: 3em;
+    line-height: 2.5rem;
+   
+}
+
+.rightbio h1
+{
+    font-size: 3em;
+}
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#follow
+{
+    text-align: center;
+     font-size: 1.5em; 
+
+}
+#follow i
+{
+    color: rgb(179, 18, 98) ;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+
+}
+#follow p
+{
+    margin-right: 5rem;
+}
+.link
+{
+    text-align: center;
+    margin-top: 3rem;
+}
+#cv
+{
+text-decoration: none;
+color: black;
+padding: 1rem 2rem;
+border-radius: 8px;
+font-size: 1.5rem;
+margin: 0 1rem;
+border: 1px dashed grey;
+}
+#services
+{
+    width: 100%; 
+    height: 100%;
+    padding: 50px 70px;
+   background: rgb(236, 210, 236);
+   
+}
+#services h1
+{
+    text-align: center;
+    font-size: 2.5em;
+}
+.intro
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem ;
+   
+    
+
+}
+.intro .music
+{
+ border:  2px solid rgb(138, 51, 92);
+padding: 2em;
+border-radius: 1em;
+margin-left: 3em;
+}
+.music i
+{
+    font-size: 2em;
+    margin-left: 2em;
+}
+.music h3
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+.music p
+{
+    line-height: 1.5rem;
+}
+.intro .web
+{
+ border:  2px solid rgb(138, 51, 92);
+padding: 2em;
+border-radius: 1em;
+margin-left: 3em;
+}
+.web i
+{
+    font-size: 2em;
+    margin-left: 2em;
+}
+.web h3
+{
+    text-align: center;
+    font-size: 1.5em;
+}
+.web p
+{
+    line-height: 1.5rem;
+}
