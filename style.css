@@ -5,19 +5,31 @@
     box-sizing: border-box; 
    
 }
- header
+ 
+header
 {
-     width: 100%;
-     height: 100%;  
-    background-color: rgb(46, 18, 48);        
-      /* background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9))
-               ,url('media/ordinateur-portable-ecran-blanc-vierge_273609-16110.avif');
-                */
-               /* color: white; */
-               
-         color: white;      
-         background-size: cover;     
-}  
+   width: 100%;
+   height: 100%;
+   
+   background-image: url(media/abstract-2829963_1920\ \(1\).png);
+   background-repeat: no-repeat; 
+   
+   background-position: center; 
+   background-size: cover;
+} 
+
+
+.ecran
+
+{
+  
+   
+    display: flex;
+    align-items: center;
+   justify-content: center;  
+   
+    
+}
  nav
 {
     width: 100%; 
@@ -34,6 +46,11 @@
     font-size: 2em;
     letter-spacing: 2px;
     font-weight: bold ;
+    margin-left: 3em;
+}
+span#num1
+{
+    color: rgb(90, 17, 80);
 }
 span
 {
@@ -42,13 +59,22 @@ span
 .menu a
 {
     text-decoration: none;
-    color: white;
+    color:rgb(60, 11, 80);
     font-size: 1.2em;
     padding:0.5rem 1rem ;
+    font-weight: bold ;
+}
+.menu a
+{
+    text-decoration: none;
+    color:rgb(60, 11, 80);
+    font-size: 1.2em;
+    padding:0.5rem 1rem ;
+    font-weight: bold ;
 }
 .menu a:nth-child(5)
 {
-    background:  rgb(179, 18, 98);
+    background:  rgb(155, 206, 255);
     border-radius: 8px;
     margin: 0.1rem;
 }
@@ -59,9 +85,109 @@ span
 }
 .menu a:hover 
 {
-    background: rgb(179, 18, 98);
+    background:  rgb(155, 206, 255);
     border-radius: 8px ;
 }
+
+
+.carte
+ {
+   
+    margin: 150px;
+    width: 500%;
+    max-width: 600px;
+    color:aliceblue;
+     text-align: center; 
+     
+    padding: 80px 40px; 
+    border: 3px solid rgba(255, 62, 126, 0.3);
+    background: rgb(60, 11, 80);
+    border-radius: 20px;
+    /* backdrop-filter: blur(5px); */
+    box-shadow: 0 4px 30px rgba(199, 10, 57, 0.1);
+    
+    
+    
+}
+  /* .carte .info
+{
+  padding: 5px 70px; 
+  padding-right: 70px;
+}     */
+ .carte
+{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 15px 20px; */
+} 
+.carte img
+{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+ .carte h2{
+     font-size: 30px;
+     font-weight: 400px;
+      
+     margin-left: -50px; 
+ }
+ span
+ {
+   color: rgb(201, 4, 158);
+ }
+ .carte p
+ {
+     font-size: 20px;
+    width: 300px;
+      
+     margin-right: 20px;   
+     max-width: 500px;
+     text-align: left;
+ }
+  
+ .reseau
+ {
+  margin-left: 40px;
+}
+.reseau i
+{
+    color: rgb(184, 88, 136) ;
+    font-size: 1rem;
+    margin: 0 0.2rem;
+
+}
+ .contact
+ {
+  
+    display: inline-block;
+    
+   font-size: 20px;
+   font-weight: 200;
+   font-family: fantasy;
+   color: rgb(26, 8, 25);
+    border: 2px solid rgba(187, 46, 96, 0.3);
+    background: rgb(155, 206, 255);
+    border-radius: 30px;
+  
+     margin: 5px 0;
+    padding: 2px 5px ; 
+    
+   
+    
+ }
+ .contact a
+
+{
+    text-decoration: none;
+   
+}
+  .contact a:hover
+ {
+   color: rgb(129, 59, 98);
+   
+   
+ } 
 .container
 {
     width: 100%;  
